@@ -1,0 +1,120 @@
+/* --------Google fonts------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* General styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.container {
+    max-width: 1047px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+
+/* Influecer style starts here --------------------- */
+.influencer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-bottom: 50px;
+   
+}
+.influencer-details{
+    width: 582px;
+    height: 270px;
+}
+.influencer-title{
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.influencer-description{
+    color: #3A3A3A;
+    font-size: 16px;
+}
+.influencer-btn{
+    font-size: 16px;
+    font-weight: bold;
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: none;
+}
+.influencer-btn .fa-arrow-right{
+    margin-left: 5px;
+}
+.influencer-image{
+    width: 440px;
+    height: 414px;
+}
+
+/* product collection starts here-------------------- */
+
+.product-collection-title{
+    font-weight: 500;
+    font-size: 28px;
+    text-align: center;
+}
+.product-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:25px;
+    grid-row-gap:10px;
+}
+.product{
+    background-color: whitesmoke;
+    padding-top: 15px;
+}
+.product-image{
+    text-align: center;
+}
+.product-info{
+    padding-left: 15px;
+}
+.product-info h3{
+    font-weight: 500;
+    font-size: 28px;
+}
+.product-info h4{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+.see-more{
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.see-more a{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer{
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    padding: 20px 0 20px 0;
+}
+
+/* footer section starts here---------------------------------------------- */
+.footer h3{
+    font-size: 24px;
+    
+}
+
+.fab{
+   font-size: 20px;
+   color: white;
+   margin-right: 15px;
+
+}
