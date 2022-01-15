@@ -254,12 +254,12 @@ main{
 
 
 @media only screen and (max-width:688px) {
-    .influencer, .product-collection{
+    .influencer, .product-collection, .nav-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
        
     }
-    .influencer-details, .influencer-image , .nav-section{
+    .influencer-details, .influencer-image {
         width: 100%;
         height: 141px;
     }
@@ -300,12 +300,12 @@ main{
 
 /* tablet devices............................ */
 @media only screen and (min-width:688px) and (max-width:992px){
-    .influencer, .product-collection{
+    .influencer, .product-collection, .nav-section{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
        
     }
-    .influencer-details, .influencer-image, .nav-section {
+    .influencer-details, .influencer-image {
         width: 100%;
         height: 141px;
     }
